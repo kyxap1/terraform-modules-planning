@@ -1,0 +1,75 @@
+{
+  "application": [
+    "cpp",
+    "docker",
+    "golang",
+    "java",
+    "nodejs",
+    "php",
+    "static"
+  ],
+  "balancer": [
+    "tcp",
+    "ssl",
+    "http"
+  ],
+  "cache": [
+    "auth",
+    "database",
+    "http"
+  ],
+  "database": [
+    "relational",
+    "nosql"
+  ],
+  "datastore": [
+    "bucket",
+    "filesystem",
+    "datalake"
+  ],
+  "functional": [
+    "application",
+    "balancer",
+    "cache",
+    "database",
+    "datastore",
+    "middleware"
+  ],
+  "infrastructure": [
+    "bastion",
+    "network",
+    "repository",
+    "tunnel"
+  ],
+  "middleware": [
+    "wildfly"
+  ],
+  "isolation": [
+    "public",
+    "private",
+    "secure"
+  ],
+  "grouping": [
+    "single",
+    "multiple"
+  ],
+  "relations": [
+    "One",
+    "OneToOne",
+    "OneToMany",
+    "ManyToOne"
+  ],
+  "aws": [
+    "aws_autoscaling_group",
+    "aws_availability_zone",
+    "aws_security_group",
+    "aws_subnet",
+    "aws_vpc",
+    "s3_bucket",
+    "aws_instance",
+    "ec2_elasticache",
+    "network",
+    "aws_db_instance",
+    "region"
+  ]
+}
