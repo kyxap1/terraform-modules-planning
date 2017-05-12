@@ -20,4 +20,7 @@ stacks:
   - kaffka
   - wildfly
   - elk
-
+projects:
+  - geoservice
+  - fasten
+  - vouch
