@@ -1,0 +1,23 @@
+---
+modules:
+  aws:
+    - vpc
+    - iam
+    - sg
+    - asg
+    - elb
+    - alb
+    - rds
+    - bucket
+    - instance
+    - cloudwatch
+  infra:
+    - bastion
+    - vpn
+    - mail
+stacks:
+  - cassandra
+  - kaffka
+  - wildfly
+  - elk
+
